@@ -1,0 +1,104 @@
+body {
+    background: rgb(255, 250, 241);
+}
+
+.header {
+    background:rgb(30, 30, 30);
+    padding: 8px;
+    width: 100%;
+    font-size: 1.2rem;
+    
+}
+
+#menu a {
+ color: white;
+}
+
+#menu  a:hover {
+  color: orange;
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+
+  footer {
+    background: rgb(30, 30, 30);
+  }
+
+  .insta-icon {
+    fill:rgb(233, 151, 0);
+    margin-left: 40px;
+    margin-right: 40px;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  /*this is the instagram hover effect*/
+  .insta-icon:hover {
+    transform: scale(1.2) rotate(30deg);
+  }
+
+  /*this is the email styling section*/
+  .email-icon {
+    fill: rgb(233, 151, 0);
+    transition: transform 0.5s ease-in-out;
+  
+  }
+
+  /*this is the email hover effect*/
+  .email-icon:hover {
+    transform: scale(1.2);
+  }
+
+  /*this is the twitter-X styling section*/
+  .twitter-icon {
+    fill:rgb(233, 151, 0);
+    transition: transform 0.5s ease-in-out;
+  
+  }
+
+  /*this is the twitter-X chover effect*/
+  .twitter-icon:hover {
+    transform: scale(1.2);
+  }
+
+  .icon {
+    fill: rgb(245, 171, 33);
+  }
+
+  .icon:hover {
+    fill:rgb(203, 133, 2);
+  }
+
+ #contact-button1 {
+  background:rgb(48, 48, 48);
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 15px 1px;
+  font-size: 1.1rem;
+  transition: padding-right 1.3s ease-in-out;
+ }
+
+ #contact-button1:hover{
+  background: rgb(233, 151, 0);
+  padding-right: 300px;
+ }
+
+ #contact-button2 {
+  background: orange;
+  border: none;
+  padding: 10px;
+  border-radius: 2px 10px;
+  color: white;
+}
+
+#contact-button2:hover {
+  background: rgb(203, 133, 2);
+}
+
+ #footer {
+  box-shadow: 0px 0px 21px rgb(80, 80, 80);
+ }
